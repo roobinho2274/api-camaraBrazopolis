@@ -3,27 +3,32 @@
   "WorkspaceRootPath": "C:\\Projetos\\CamaraBrazopolis\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|c:\\projetos\\camarabrazopolis\\camarabrazopolisapi\\profiles\\leisprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|solutionrelative:camarabrazopolisapi\\profiles\\leisprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|c:\\projetos\\camarabrazopolis\\camarabrazopolisapi\\data\\updateleidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|solutionrelative:camarabrazopolisapi\\data\\updateleidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|c:\\projetos\\camarabrazopolis\\camarabrazopolisapi\\controllers\\leiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|solutionrelative:camarabrazopolisapi\\controllers\\leiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|c:\\projetos\\camarabrazopolis\\camarabrazopolisapi\\models\\leis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|solutionrelative:camarabrazopolisapi\\models\\leis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|c:\\projetos\\camarabrazopolis\\camarabrazopolisapi\\data\\insereleisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|solutionrelative:camarabrazopolisapi\\data\\insereleisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|c:\\projetos\\camarabrazopolis\\camarabrazopolisapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|solutionrelative:camarabrazopolisapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|c:\\projetos\\camarabrazopolis\\camarabrazopolisapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|solutionrelative:camarabrazopolisapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|c:\\projetos\\camarabrazopolis\\camarabrazopolisapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|solutionrelative:camarabrazopolisapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|c:\\projetos\\camarabrazopolis\\camarabrazopolisapi\\models\\__efmigrationshistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|solutionrelative:camarabrazopolisapi\\models\\__efmigrationshistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|c:\\projetos\\camarabrazopolis\\camarabrazopolisapi\\data\\readleisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|solutionrelative:camarabrazopolisapi\\data\\readleisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,80 +42,93 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAJgTAAAAAAAAAAAIwKkTAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-01-07T23:09:53.605Z",
+              "DocumentIndex": 1,
+              "Title": "UpdateLeiDTO.cs",
+              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Data\\UpdateLeiDTO.cs",
+              "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\Data\\UpdateLeiDTO.cs",
+              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Data\\UpdateLeiDTO.cs",
+              "RelativeToolTip": "CamaraBrazopolisAPI\\Data\\UpdateLeiDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T16:12:13.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LeisController.cs",
-              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Controllers\\LeisController.cs",
-              "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\Controllers\\LeisController.cs",
-              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Controllers\\LeisController.cs*",
-              "RelativeToolTip": "CamaraBrazopolisAPI\\Controllers\\LeisController.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACsAAAAiAAAAAAAAAA==",
+              "Title": "LeisProfile.cs",
+              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Profiles\\LeisProfile.cs",
+              "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\Profiles\\LeisProfile.cs",
+              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Profiles\\LeisProfile.cs",
+              "RelativeToolTip": "CamaraBrazopolisAPI\\Profiles\\LeisProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T23:06:09.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "__EFMigrationsHistory.cs",
-              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Models\\__EFMigrationsHistory.cs",
-              "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\Models\\__EFMigrationsHistory.cs",
-              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Models\\__EFMigrationsHistory.cs",
-              "RelativeToolTip": "CamaraBrazopolisAPI\\Models\\__EFMigrationsHistory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T16:10:43.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "CamaraBrazopolisAPI\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T16:10:37.115Z",
+              "WhenOpened": "2025-01-09T15:23:47.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\appsettings.json",
-              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\appsettings.json",
-              "RelativeToolTip": "CamaraBrazopolisAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-07T15:10:40.536Z",
+              "Title": "InsereLeisDTO.cs",
+              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Data\\InsereLeisDTO.cs",
+              "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\Data\\InsereLeisDTO.cs",
+              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Data\\InsereLeisDTO.cs",
+              "RelativeToolTip": "CamaraBrazopolisAPI\\Data\\InsereLeisDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:20:21.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Program.cs",
               "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\Program.cs",
               "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Program.cs",
               "RelativeToolTip": "CamaraBrazopolisAPI\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAIAzwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T15:10:01.4Z",
+              "WhenOpened": "2025-01-09T15:13:41.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "leis.cs",
+              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Models\\leis.cs",
+              "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\Models\\leis.cs",
+              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Models\\leis.cs",
+              "RelativeToolTip": "CamaraBrazopolisAPI\\Models\\leis.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA3wBAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:04:09.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReadLeisDTO.cs",
+              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Data\\ReadLeisDTO.cs",
+              "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\Data\\ReadLeisDTO.cs",
+              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Data\\ReadLeisDTO.cs",
+              "RelativeToolTip": "CamaraBrazopolisAPI\\Data\\ReadLeisDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:04:04.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeisController.cs",
+              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Controllers\\LeisController.cs",
+              "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\Controllers\\LeisController.cs",
+              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Controllers\\LeisController.cs",
+              "RelativeToolTip": "CamaraBrazopolisAPI\\Controllers\\LeisController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwv0AAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:02:49.168Z",
               "EditorCaption": ""
             }
           ]
