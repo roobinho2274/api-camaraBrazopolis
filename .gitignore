@@ -11,6 +11,7 @@ obj/
 *.sln.docstates
 *.vsidx
 *.v2
+.vs/
 
 # Logs e arquivos temporários
 *.log

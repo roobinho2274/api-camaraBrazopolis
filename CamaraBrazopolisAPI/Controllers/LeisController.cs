@@ -1,4 +1,6 @@
-﻿using CamaraBrazopolisAPI.Data;
+﻿using AutoMapper;
+
+using CamaraBrazopolisAPI.Data;
 using CamaraBrazopolisAPI.Models;
 
 using Microsoft.AspNetCore.Http;
@@ -11,17 +13,19 @@ namespace CamaraBrazopolisAPI.Controllers
     public class LeisController : ControllerBase
     {
         private ApplicationDbContext _context;
+        private IMapper _mapper;
 
-        public LeisController(ApplicationDbContext context)
+        public LeisController(ApplicationDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         // GET: api/<ValuesController>
         [HttpGet]
-        public IEnumerable<leis> Get()
+        public IEnumerable<ReadLeisDTO> Get()
         {
-            return _context.leis.ToList();
+            return _mapper.Map<List<ReadLeisDTO>>(_context.leis.ToList());
         }
 
         // GET api/<ValuesController>/5
@@ -33,27 +37,36 @@ namespace CamaraBrazopolisAPI.Controllers
 
         // POST api/<ValuesController>
         [HttpPost]
-        public IActionResult Post([FromBody] List<leis> value)
+        public IActionResult Post([FromBody] List<InsereLeisDTO> leisDto)
         {
-            value.ToList().ForEach(n =>
+            leisDto.ToList().ForEach(n =>
             {
-                _context.leis.Add(n);
+                var leis = _mapper.Map<Leis>(n);
+                _context.leis.Add(leis);
                 _context.SaveChanges();
             });
             return NoContent();
         }
 
         //// PUT api/<ValuesController>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] UpdateLeiDTO leiDto)
+        {
+            var lei = _context.leis.FirstOrDefault(n => n.Id == id);
+            if (lei == null)
+            {
+                return NotFound();
+            }
+            _mapper.Map(leiDto, lei);
+            _context.SaveChanges();
+            return NoContent();
+        }
 
         // DELETE api/<ValuesController>/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var lei = _context.leis.FirstOrDefault(lei => lei.id == id);
+            var lei = _context.leis.FirstOrDefault(lei => lei.Id == id);
             if (lei == null)
             {
                 return NotFound();

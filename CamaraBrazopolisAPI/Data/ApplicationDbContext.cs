@@ -35,7 +35,7 @@ public partial class ApplicationDbContext : DbContext
 
     public virtual DbSet<indicacoes> indicacoes { get; set; }
 
-    public virtual DbSet<leis> leis { get; set; }
+    public virtual DbSet<Leis> leis { get; set; }
 
     public virtual DbSet<licitacao> licitacao { get; set; }
 
@@ -207,18 +207,18 @@ public partial class ApplicationDbContext : DbContext
             entity.Property(e => e.resposta).HasMaxLength(20);
         });
 
-        modelBuilder.Entity<leis>(entity =>
+        modelBuilder.Entity<Leis>(entity =>
         {
-            entity.HasKey(e => e.id).HasName("PRIMARY");
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity
                 .HasCharSet("latin1")
                 .UseCollation("latin1_general_ci");
 
-            entity.Property(e => e.id).HasColumnType("int(11)");
+            entity.Property(e => e.Id).HasColumnType("int(11)");
             entity.Property(e => e.Caput).HasMaxLength(500);
-            entity.Property(e => e.arquivo).HasMaxLength(50);
-            entity.Property(e => e.numero).HasMaxLength(50);
+            entity.Property(e => e.Arquivo).HasMaxLength(50);
+            entity.Property(e => e.Numero).HasMaxLength(50);
         });
 
         modelBuilder.Entity<licitacao>(entity =>
