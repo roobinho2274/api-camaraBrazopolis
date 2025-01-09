@@ -1,0 +1,52 @@
+# Diretórios do ambiente .NET
+bin/
+obj/
+
+# Configurações locais de IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vsidx
+*.v2
+
+# Logs e arquivos temporários
+*.log
+logs/
+*.tmp
+
+# Arquivos de build do sistema operacional
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependências geradas
+node_modules/
+wwwroot/lib/
+wwwroot/dist/
+
+# Arquivos sensíveis
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Secrets.json
+*.key
+*.pfx
+
+# Arquivos gerados pelo pacote NuGet
+*.nupkg
+*.snupkg
+
+# Arquivos de publicação
+publish/
+out/
+
+# Arquivos de cobertura de código
+coverage/
+*.coverage
+*.coveragexml
+
+# Arquivos de cache
+*.lock
+.env
