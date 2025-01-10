@@ -1,6 +1,0 @@
-@CamaraBrazopolisAPI_HostAddress = http://localhost:5216
-
-GET {{CamaraBrazopolisAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

@@ -1,8 +1,13 @@
-﻿namespace CamaraBrazopolisAPI.Data;
+﻿namespace CamaraBrazopolisAPI.Data.LeisDTO;
 
-public class InsereLeisDTO
-{   
+public class ReadLeisDTO
+{
+    public int Id
+    {
+        get; set;
+    }
     public string Numero { get; set; } = null!;
+
     public DateOnly Data
     {
         get; set;

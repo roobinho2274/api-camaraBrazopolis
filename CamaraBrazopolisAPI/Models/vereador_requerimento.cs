@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace CamaraBrazopolisAPI.Models;
+﻿namespace CamaraBrazopolisAPI.Models;
 
 public partial class vereador_requerimento
 {

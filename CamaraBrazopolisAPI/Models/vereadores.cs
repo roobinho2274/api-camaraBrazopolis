@@ -1,24 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace CamaraBrazopolisAPI.Models;
+﻿namespace CamaraBrazopolisAPI.Models;
 
 public partial class vereadores
 {
-    public int id { get; set; }
+    public int id
+    {
+        get; set;
+    }
 
     public string nome { get; set; } = null!;
 
-    public int partido { get; set; }
+    public int id_partido
+    {
+        get; set;
+    }
 
     public string foto { get; set; } = null!;
 
     public string email { get; set; } = null!;
 
-    public string? biografia { get; set; }
+    public string? biografia
+    {
+        get; set;
+    }
 
-    public int ativo { get; set; }
+    public int ativo
+    {
+        get; set;
+    }
 
+    public virtual partidos id_partidoNavigation { get; set; } = null;
     public virtual ICollection<mesa_diretora> mesa_diretora { get; set; } = new List<mesa_diretora>();
 
     public virtual ICollection<vereador_indicacao> vereador_indicacao { get; set; } = new List<vereador_indicacao>();
