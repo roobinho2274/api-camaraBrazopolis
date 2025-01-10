@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace CamaraBrazopolisAPI.Models;
 
-public partial class Leis
+public partial class leis
 {
     public int Id { get; set; }
     [Required]

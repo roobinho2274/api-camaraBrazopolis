@@ -1,17 +1,15 @@
 ﻿using AutoMapper;
-
-using CamaraBrazopolisAPI.Data;
+using CamaraBrazopolisAPI.Data.LeisDTO;
 using CamaraBrazopolisAPI.Models;
 
-namespace CamaraBrazopolisAPI.Profiles
+namespace CamaraBrazopolisAPI.Profiles;
+
+public class LeisProfile: Profile
 {
-    public class LeisProfile: Profile
+    public LeisProfile()
     {
-        public LeisProfile()
-        {
-            CreateMap<InsereLeisDTO, Leis>();
-            CreateMap<Leis, ReadLeisDTO>();
-            CreateMap<UpdateLeiDTO, Leis>();
-        }
+        CreateMap<InsertLeisDTO, leis>();
+        CreateMap<leis, ReadLeisDTO>();
+        CreateMap<UpdateLeiDTO, leis>();
     }
 }

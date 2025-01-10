@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 
 using CamaraBrazopolisAPI.Data;
+using CamaraBrazopolisAPI.Data.LeisDTO;
 using CamaraBrazopolisAPI.Models;
 
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CamaraBrazopolisAPI.Controllers
@@ -30,18 +30,24 @@ namespace CamaraBrazopolisAPI.Controllers
 
         // GET api/<ValuesController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
+            var lei = _context.leis.FirstOrDefault(n => n.Id == id);
+            if (lei == null)
+            {
+
+                return NotFound();
+            }
+            return Ok(_mapper.Map<ReadLeisDTO>(lei));
         }
 
         // POST api/<ValuesController>
         [HttpPost]
-        public IActionResult Post([FromBody] List<InsereLeisDTO> leisDto)
+        public IActionResult Post([FromBody] List<InsertLeisDTO> leisDto)
         {
             leisDto.ToList().ForEach(n =>
             {
-                var leis = _mapper.Map<Leis>(n);
+                var leis = _mapper.Map<leis>(n);
                 _context.leis.Add(leis);
                 _context.SaveChanges();
             });

@@ -1,6 +1,6 @@
-﻿namespace CamaraBrazopolisAPI.Data;
+﻿namespace CamaraBrazopolisAPI.Data.LeisDTO;
 
-public class UpdateLeiDTO
+public class InsertLeisDTO
 {
     public string Numero { get; set; } = null!;
     public DateOnly Data

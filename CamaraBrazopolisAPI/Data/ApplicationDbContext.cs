@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using CamaraBrazopolisAPI.Models;
+﻿using CamaraBrazopolisAPI.Models;
+
 using Microsoft.EntityFrameworkCore;
-using Pomelo.EntityFrameworkCore.MySql.Scaffolding.Internal;
 
 namespace CamaraBrazopolisAPI.Data;
 
 public partial class ApplicationDbContext : DbContext
 {
+    /*
+     * Comando para atualizar os modelos
+     * Scaffold-DbContext "SuaConnectionString" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+     */
     public ApplicationDbContext()
     {
     }
@@ -17,61 +19,140 @@ public partial class ApplicationDbContext : DbContext
     {
     }
 
-    public virtual DbSet<Requerimentos> Requerimentos { get; set; }
+    public virtual DbSet<Requerimentos> Requerimentos
+    {
+        get; set;
+    }
 
-    public virtual DbSet<Vereadores1> Vereadores1 { get; set; }
+    public virtual DbSet<__EFMigrationsHistory> __EFMigrationsHistory
+    {
+        get; set;
+    }
 
-    public virtual DbSet<__EFMigrationsHistory> __EFMigrationsHistory { get; set; }
+    public virtual DbSet<cargos> cargos
+    {
+        get; set;
+    }
 
-    public virtual DbSet<cargos> cargos { get; set; }
+    public virtual DbSet<comissao_camara> comissao_camara
+    {
+        get; set;
+    }
 
-    public virtual DbSet<comissao_camara> comissao_camara { get; set; }
+    public virtual DbSet<comissoes> comissoes
+    {
+        get; set;
+    }
 
-    public virtual DbSet<comissoes> comissoes { get; set; }
+    public virtual DbSet<decretos> decretos
+    {
+        get; set;
+    }
 
-    public virtual DbSet<decretos> decretos { get; set; }
+    public virtual DbSet<entidade> entidade
+    {
+        get; set;
+    }
 
-    public virtual DbSet<entidade> entidade { get; set; }
+    public virtual DbSet<indicacoes> indicacoes
+    {
+        get; set;
+    }
 
-    public virtual DbSet<indicacoes> indicacoes { get; set; }
+    public virtual DbSet<leis> leis
+    {
+        get; set;
+    }
 
-    public virtual DbSet<Leis> leis { get; set; }
+    public virtual DbSet<licitacao> licitacao
+    {
+        get; set;
+    }
 
-    public virtual DbSet<licitacao> licitacao { get; set; }
+    public virtual DbSet<mesa_diretora> mesa_diretora
+    {
+        get; set;
+    }
 
-    public virtual DbSet<mesa_diretora> mesa_diretora { get; set; }
+    public virtual DbSet<modalidade> modalidade
+    {
+        get; set;
+    }
 
-    public virtual DbSet<modalidade> modalidade { get; set; }
+    public virtual DbSet<noticias> noticias
+    {
+        get; set;
+    }
 
-    public virtual DbSet<noticias> noticias { get; set; }
+    public virtual DbSet<partidos> partidos
+    {
+        get; set;
+    }
 
-    public virtual DbSet<partidos> partidos { get; set; }
+    public virtual DbSet<partidovereador> partidovereador
+    {
+        get; set;
+    }
 
-    public virtual DbSet<partidovereador> partidovereador { get; set; }
+    public virtual DbSet<pedidos> pedidos
+    {
+        get; set;
+    }
 
-    public virtual DbSet<pedidos> pedidos { get; set; }
+    public virtual DbSet<projeto_executivo> projeto_executivo
+    {
+        get; set;
+    }
 
-    public virtual DbSet<projeto_executivo> projeto_executivo { get; set; }
+    public virtual DbSet<projeto_legislativo> projeto_legislativo
+    {
+        get; set;
+    }
 
-    public virtual DbSet<projeto_legislativo> projeto_legislativo { get; set; }
+    public virtual DbSet<resolucoes> resolucoes
+    {
+        get; set;
+    }
 
-    public virtual DbSet<resolucoes> resolucoes { get; set; }
+    public virtual DbSet<sessao_categoria> sessao_categoria
+    {
+        get; set;
+    }
 
-    public virtual DbSet<sessao_categoria> sessao_categoria { get; set; }
+    public virtual DbSet<sessoes> sessoes
+    {
+        get; set;
+    }
 
-    public virtual DbSet<sessoes> sessoes { get; set; }
+    public virtual DbSet<status_projetos> status_projetos
+    {
+        get; set;
+    }
 
-    public virtual DbSet<status_projetos> status_projetos { get; set; }
+    public virtual DbSet<usuario> usuario
+    {
+        get; set;
+    }
 
-    public virtual DbSet<usuario> usuario { get; set; }
+    public virtual DbSet<vereador_indicacao> vereador_indicacao
+    {
+        get; set;
+    }
 
-    public virtual DbSet<vereador_indicacao> vereador_indicacao { get; set; }
+    public virtual DbSet<vereador_pedido> vereador_pedido
+    {
+        get; set;
+    }
 
-    public virtual DbSet<vereador_pedido> vereador_pedido { get; set; }
+    public virtual DbSet<vereador_requerimento> vereador_requerimento
+    {
+        get; set;
+    }
 
-    public virtual DbSet<vereador_requerimento> vereador_requerimento { get; set; }
-
-    public virtual DbSet<vereadores> vereadores { get; set; }
+    public virtual DbSet<vereadores> vereadores
+    {
+        get; set;
+    }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -98,16 +179,6 @@ public partial class ApplicationDbContext : DbContext
                 .HasColumnType("timestamp");
             entity.Property(e => e.nome).HasMaxLength(255);
             entity.Property(e => e.resposta).HasMaxLength(255);
-        });
-
-        modelBuilder.Entity<Vereadores1>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PRIMARY");
-
-            entity.ToTable("Vereadores");
-
-            entity.Property(e => e.Id).HasColumnType("int(11)");
-            entity.Property(e => e.Partido).HasColumnType("int(11)");
         });
 
         modelBuilder.Entity<__EFMigrationsHistory>(entity =>
@@ -207,7 +278,7 @@ public partial class ApplicationDbContext : DbContext
             entity.Property(e => e.resposta).HasMaxLength(20);
         });
 
-        modelBuilder.Entity<Leis>(entity =>
+        modelBuilder.Entity<leis>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
@@ -291,16 +362,17 @@ public partial class ApplicationDbContext : DbContext
             entity.Property(e => e.url_facebook).HasMaxLength(255);
         });
 
-        modelBuilder.Entity<partidos>(entity =>
+        modelBuilder.Entity<Models.partidos>(entity =>
         {
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
+
             entity
-                .HasNoKey()
                 .HasCharSet("latin1")
                 .UseCollation("latin1_swedish_ci");
 
-            entity.Property(e => e.id).HasColumnType("int(11)");
-            entity.Property(e => e.imagem).HasMaxLength(255);
-            entity.Property(e => e.nome).HasMaxLength(255);
+            entity.Property(e => e.Id).HasColumnType("int(11)");
+            entity.Property(e => e.Imagem).HasMaxLength(255);
+            entity.Property(e => e.Nome).HasMaxLength(255);
         });
 
         modelBuilder.Entity<partidovereador>(entity =>
@@ -561,7 +633,10 @@ public partial class ApplicationDbContext : DbContext
             entity.Property(e => e.email).HasMaxLength(255);
             entity.Property(e => e.foto).HasMaxLength(255);
             entity.Property(e => e.nome).HasMaxLength(255);
-            entity.Property(e => e.partido).HasColumnType("int(11)");
+            entity.Property(e => e.id_partido).HasColumnType("int(11)");
+
+            entity.HasOne(v => v.id_partidoNavigation).WithMany(p => p.partido_vereadores)
+            .HasForeignKey(v => v.id_partido).HasConstraintName("vereadores_ibfk_1");
         });
 
         OnModelCreatingPartial(modelBuilder);
