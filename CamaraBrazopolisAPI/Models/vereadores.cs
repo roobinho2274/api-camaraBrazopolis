@@ -9,7 +9,7 @@ public partial class vereadores
 
     public string nome { get; set; } = null!;
 
-    public int id_partido
+    public int partido
     {
         get; set;
     }

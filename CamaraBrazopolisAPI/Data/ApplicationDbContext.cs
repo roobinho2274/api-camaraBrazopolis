@@ -633,10 +633,10 @@ public partial class ApplicationDbContext : DbContext
             entity.Property(e => e.email).HasMaxLength(255);
             entity.Property(e => e.foto).HasMaxLength(255);
             entity.Property(e => e.nome).HasMaxLength(255);
-            entity.Property(e => e.id_partido).HasColumnType("int(11)");
+            entity.Property(e => e.partido).HasColumnType("int(11)");
 
             entity.HasOne(v => v.id_partidoNavigation).WithMany(p => p.partido_vereadores)
-            .HasForeignKey(v => v.id_partido).HasConstraintName("vereadores_ibfk_1");
+            .HasForeignKey(v => v.partido).HasConstraintName("vereadores_ibfk_1");
         });
 
         OnModelCreatingPartial(modelBuilder);

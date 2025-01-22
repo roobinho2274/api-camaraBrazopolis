@@ -1,0 +1,21 @@
+﻿@page "/Vereadores"
+@inject VereadorAPI vereadorApi
+
+<h3>Vereadores</h3>
+@if(vereadores is not null)
+{
+    <h4>Listando:</h4>
+    foreach(var vereador in vereadores)
+    {
+        <p>@vereador.nome</p>
+    }
+}
+
+@code {
+    private ICollection<ReadVereadorDTO>? vereadores;
+
+    protected override async Task OnInitializedAsync()
+    {
+        vereadores = await vereadorApi.GetVereadoresAsysnc();
+    }
+}

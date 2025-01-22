@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Projetos\\CamaraBrazopolis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|c:\\projetos\\camarabrazopolis\\camarabrazopolisapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|solutionrelative:camarabrazopolisapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30B6225D-7C48-4B78-84CF-BACFAB80E619}|Camara.Web\\Camara.Web.csproj|c:\\projetos\\camarabrazopolis\\camara.web\\pages\\vereadores.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B6225D-7C48-4B78-84CF-BACFAB80E619}|Camara.Web\\Camara.Web.csproj|solutionrelative:camara.web\\pages\\vereadores.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|c:\\projetos\\camarabrazopolis\\camarabrazopolisapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|solutionrelative:camarabrazopolisapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|c:\\projetos\\camarabrazopolis\\camarabrazopolisapi\\controllers\\vereadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A815B7-7044-4E6D-AC56-D6F99870F768}|CamaraBrazopolisAPI\\CamaraBrazopolisAPI.csproj|solutionrelative:camarabrazopolisapi\\controllers\\vereadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B6225D-7C48-4B78-84CF-BACFAB80E619}|Camara.Web\\Camara.Web.csproj|c:\\projetos\\camarabrazopolis\\camara.web\\services\\vereadorapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B6225D-7C48-4B78-84CF-BACFAB80E619}|Camara.Web\\Camara.Web.csproj|solutionrelative:camara.web\\services\\vereadorapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B6225D-7C48-4B78-84CF-BACFAB80E619}|Camara.Web\\Camara.Web.csproj|c:\\projetos\\camarabrazopolis\\camara.web\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{30B6225D-7C48-4B78-84CF-BACFAB80E619}|Camara.Web\\Camara.Web.csproj|solutionrelative:camara.web\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B6225D-7C48-4B78-84CF-BACFAB80E619}|Camara.Web\\Camara.Web.csproj|c:\\projetos\\camarabrazopolis\\camara.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B6225D-7C48-4B78-84CF-BACFAB80E619}|Camara.Web\\Camara.Web.csproj|solutionrelative:camara.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "VereadorController.cs",
+              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Controllers\\VereadorController.cs",
+              "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\Controllers\\VereadorController.cs",
+              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Controllers\\VereadorController.cs",
+              "RelativeToolTip": "CamaraBrazopolisAPI\\Controllers\\VereadorController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T01:23:20.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VereadorAPI.cs",
+              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\Camara.Web\\Services\\VereadorAPI.cs",
+              "RelativeDocumentMoniker": "Camara.Web\\Services\\VereadorAPI.cs",
+              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\Camara.Web\\Services\\VereadorAPI.cs",
+              "RelativeToolTip": "Camara.Web\\Services\\VereadorAPI.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T01:07:03.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\appsettings.json",
-              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\appsettings.json",
-              "RelativeToolTip": "CamaraBrazopolisAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAB0AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\Camara.Web\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "Camara.Web\\wwwroot\\appsettings.json",
+              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\Camara.Web\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "Camara.Web\\wwwroot\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-10T16:21:03.771Z",
+              "WhenOpened": "2025-01-22T01:05:02.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\Camara.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Camara.Web\\Program.cs",
+              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\Camara.Web\\Program.cs",
+              "RelativeToolTip": "Camara.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T01:00:30.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "CamaraBrazopolisAPI\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\CamaraBrazopolisAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "CamaraBrazopolisAPI\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAABwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T16:20:47.73Z",
+              "Title": "Vereadores.razor",
+              "DocumentMoniker": "C:\\Projetos\\CamaraBrazopolis\\Camara.Web\\Pages\\Vereadores.razor",
+              "RelativeDocumentMoniker": "Camara.Web\\Pages\\Vereadores.razor",
+              "ToolTip": "C:\\Projetos\\CamaraBrazopolis\\Camara.Web\\Pages\\Vereadores.razor",
+              "RelativeToolTip": "Camara.Web\\Pages\\Vereadores.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T00:29:33.953Z",
               "EditorCaption": ""
             }
           ]
